@@ -1,0 +1,191 @@
+/* =========================================================
+   Hiroki Sano website
+   Basic site-wide styles
+   ========================================================= */
+
+/* ---------- Base ---------- */
+
+body {
+  background-color: #fffaf3;
+  color: #17324d;
+  font-family:
+    "BIZ UDPGothic",
+    "Yu Gothic",
+    "YuGothic",
+    "Hiragino Kaku Gothic ProN",
+    "Noto Sans JP",
+    sans-serif;
+  line-height: 1.8;
+}
+
+
+/* ---------- Main content ---------- */
+
+main.content {
+  max-width: 920px;
+}
+
+p {
+  margin-bottom: 1.1rem;
+}
+
+
+/* ---------- Headings ---------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #17324d;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #e7d9c6;
+}
+
+h3 {
+  margin-top: 1.8rem;
+}
+
+
+/* ---------- Links ---------- */
+
+a {
+  color: #3f6f8f;
+}
+
+a:hover {
+  color: #d96c2f;
+}
+
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+  background-color: #fff6e8 !important;
+  border-bottom: 1px solid #eadfce;
+}
+
+.navbar-brand {
+  color: #17324d !important;
+  font-weight: 700;
+}
+
+.navbar .nav-link {
+  color: #17324d !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #d96c2f !important;
+}
+
+
+/* ---------- Table of contents ---------- */
+
+#TOC {
+  font-size: 0.92rem;
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+  color: #d96c2f !important;
+  border-left-color: #d96c2f !important;
+}
+
+
+/* ---------- Blockquotes ---------- */
+
+blockquote {
+  border-left: 4px solid #d96c2f;
+  padding-left: 1rem;
+  color: #4f5964;
+}
+
+
+/* ---------- Horizontal rules ---------- */
+
+hr {
+  border-color: #e7d9c6;
+  opacity: 1;
+}
+
+
+/* ---------- Footer ---------- */
+
+.nav-footer {
+  border-top: 1px solid #eadfce;
+  background-color: #fff6e8;
+  color: #6b625a;
+}
+
+
+/* ---------- Seminar page helpers ---------- */
+
+.seminar-lead {
+  font-size: 1.15rem;
+  line-height: 1.9;
+}
+
+.seminar-question {
+  margin: 1.5rem 0;
+  padding: 1.2rem 1.4rem;
+  background-color: #fff3e5;
+  border-left: 5px solid #d96c2f;
+  border-radius: 0.3rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.98rem;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  main.content {
+    max-width: 100%;
+  }
+}
+
+.poster-frame {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0.8rem;
+  background: #ffffff;
+  border: 1px solid #d8cbb8;
+  border-radius: 0.35rem;
+  box-shadow: 0 4px 14px rgba(23, 50, 77, 0.12);
+}
+
+.poster-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.poster-caption {
+  margin-top: 0.65rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b625a;
+}

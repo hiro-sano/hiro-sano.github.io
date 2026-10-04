@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>2027年度専門演習 佐野ゼミ – Hiroki Sano</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-172ba59bd5e0b52282274ba0c0cc16fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "一致なし",
+    "search-matching-documents-text": "一致した文書",
+    "search-copy-link-title": "検索へのリンクをコピー",
+    "search-hide-matches-text": "追加の検索結果を非表示",
+    "search-more-match-text": "追加の検索結果",
+    "search-more-matches-text": "追加の検索結果",
+    "search-clear-button-title": "消去",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "検索",
+    "search-label": "サーチ"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Hiroki Sano</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="サーチ"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="ナビゲーションを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-english" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">English</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-english">    
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">Home</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./profile.html">
+ <span class="dropdown-text">Profile</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./publications.html">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./research-topics.html">
+ <span class="dropdown-text">Research Topics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./courses.html">
+ <span class="dropdown-text">Courses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./books.html">
+ <span class="dropdown-text">Books</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ug-seminar.html">
+ <span class="dropdown-text">Undergraduate Seminar</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./grad-seminar.html">
+ <span class="dropdown-text">Graduate Seminar</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">日本語</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
+        <li>
+    <a class="dropdown-item" href="./ja-index.html">
+ <span class="dropdown-text">ホーム</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ja-profile.html">
+ <span class="dropdown-text">プロフィール</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ja-publications.html">
+ <span class="dropdown-text">研究業績</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ja-research-topics.html">
+ <span class="dropdown-text">研究課題</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ja-courses.html">
+ <span class="dropdown-text">担当科目</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ja-books.html">
+ <span class="dropdown-text">著書</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ja-ug-seminar.html">
+ <span class="dropdown-text">学部ゼミ</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ja-grad-seminar.html">
+ <span class="dropdown-text">大学院ゼミ</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">このページの内容</h2>
+   
+  <ul>
+  <li><a href="#商品サービスを動かす仕組みを研究する" id="toc-商品サービスを動かす仕組みを研究する" class="nav-link active" data-scroll-target="#商品サービスを動かす仕組みを研究する">商品・サービスを動かす仕組みを研究する</a>
+  <ul class="collapse">
+  <li><a href="#現場とデータから学ぶオペレーションズマネジメントom" id="toc-現場とデータから学ぶオペレーションズマネジメントom" class="nav-link" data-scroll-target="#現場とデータから学ぶオペレーションズマネジメントom">現場とデータから学ぶオペレーションズ・マネジメント（OM）</a></li>
+  </ul></li>
+  <li><a href="#ポスターを見て来た方へ" id="toc-ポスターを見て来た方へ" class="nav-link" data-scroll-target="#ポスターを見て来た方へ">ポスターを見て来た方へ</a>
+  <ul class="collapse">
+  <li><a href="#スタッフは6人あなたならどう動かしますか" id="toc-スタッフは6人あなたならどう動かしますか" class="nav-link" data-scroll-target="#スタッフは6人あなたならどう動かしますか">スタッフは6人。あなたなら、どう動かしますか？</a></li>
+  </ul></li>
+  <li><a href="#佐野ゼミの2年間" id="toc-佐野ゼミの2年間" class="nav-link" data-scroll-target="#佐野ゼミの2年間">佐野ゼミの2年間</a>
+  <ul class="collapse">
+  <li><a href="#回生春現場を見るためのものさしを身につける" id="toc-回生春現場を見るためのものさしを身につける" class="nav-link" data-scroll-target="#回生春現場を見るためのものさしを身につける">3回生春：現場を見るための「ものさし」を身につける</a></li>
+  <li><a href="#回生秋仲間と一つの研究をつくる" id="toc-回生秋仲間と一つの研究をつくる" class="nav-link" data-scroll-target="#回生秋仲間と一つの研究をつくる">3回生秋：仲間と一つの研究をつくる</a></li>
+  <li><a href="#回生春自分の研究テーマをつくる" id="toc-回生春自分の研究テーマをつくる" class="nav-link" data-scroll-target="#回生春自分の研究テーマをつくる">4回生春：自分の研究テーマをつくる</a></li>
+  <li><a href="#回生秋卒業論文を完成させる" id="toc-回生秋卒業論文を完成させる" class="nav-link" data-scroll-target="#回生秋卒業論文を完成させる">4回生秋：卒業論文を完成させる</a></li>
+  </ul></li>
+  <li><a href="#年度のフィールドワークについて" id="toc-年度のフィールドワークについて" class="nav-link" data-scroll-target="#年度のフィールドワークについて">2027年度のフィールドワークについて</a></li>
+  <li><a href="#研究対象はイベントだけではありません" id="toc-研究対象はイベントだけではありません" class="nav-link" data-scroll-target="#研究対象はイベントだけではありません">研究対象は「イベント」だけではありません</a></li>
+  <li><a href="#omをもっと知りたい人へ" id="toc-omをもっと知りたい人へ" class="nav-link" data-scroll-target="#omをもっと知りたい人へ">OMをもっと知りたい人へ</a></li>
+  <li><a href="#よくある質問" id="toc-よくある質問" class="nav-link" data-scroll-target="#よくある質問">よくある質問</a>
+  <ul class="collapse">
+  <li><a href="#数学が得意でないと難しいですか" id="toc-数学が得意でないと難しいですか" class="nav-link" data-scroll-target="#数学が得意でないと難しいですか">数学が得意でないと難しいですか？</a></li>
+  <li><a href="#オペレーションズリサーチは履修しなければなりませんか" id="toc-オペレーションズリサーチは履修しなければなりませんか" class="nav-link" data-scroll-target="#オペレーションズリサーチは履修しなければなりませんか">「オペレーションズ・リサーチ」は履修しなければなりませんか？</a></li>
+  <li><a href="#使用するテキストは決まっていますか" id="toc-使用するテキストは決まっていますか" class="nav-link" data-scroll-target="#使用するテキストは決まっていますか">使用するテキストは決まっていますか？</a></li>
+  <li><a href="#卒業論文も地域イベントについて書くのですか" id="toc-卒業論文も地域イベントについて書くのですか" class="nav-link" data-scroll-target="#卒業論文も地域イベントについて書くのですか">卒業論文も地域イベントについて書くのですか？</a></li>
+  <li><a href="#グループ活動はありますか" id="toc-グループ活動はありますか" class="nav-link" data-scroll-target="#グループ活動はありますか">グループ活動はありますか？</a></li>
+  <li><a href="#学外での活動はありますか" id="toc-学外での活動はありますか" class="nav-link" data-scroll-target="#学外での活動はありますか">学外での活動はありますか？</a></li>
+  <li><a href="#どんな学生が向いていますか" id="toc-どんな学生が向いていますか" class="nav-link" data-scroll-target="#どんな学生が向いていますか">どんな学生が向いていますか？</a></li>
+  </ul></li>
+  <li><a href="#選考について" id="toc-選考について" class="nav-link" data-scroll-target="#選考について">選考について</a>
+  <ul class="collapse">
+  <li><a href="#選考面談" id="toc-選考面談" class="nav-link" data-scroll-target="#選考面談">選考面談</a></li>
+  </ul></li>
+  <li><a href="#ゼミフェス202610月1416日" id="toc-ゼミフェス202610月1416日" class="nav-link" data-scroll-target="#ゼミフェス202610月1416日">ゼミフェス2026（10月14～16日）</a></li>
+  <li><a href="#個別ゼミ説明会模擬授業10月20-22日" id="toc-個別ゼミ説明会模擬授業10月20-22日" class="nav-link" data-scroll-target="#個別ゼミ説明会模擬授業10月20-22日">個別ゼミ説明会（模擬授業）（10月20, 22日）</a>
+  <ul class="collapse">
+  <li><a href="#月20日" id="toc-月20日" class="nav-link" data-scroll-target="#月20日">①10月20日</a></li>
+  <li><a href="#月22日" id="toc-月22日" class="nav-link" data-scroll-target="#月22日">②10月22日</a></li>
+  </ul></li>
+  <li><a href="#卒業生から見た佐野ゼミ" id="toc-卒業生から見た佐野ゼミ" class="nav-link" data-scroll-target="#卒業生から見た佐野ゼミ">卒業生から見た佐野ゼミ</a></li>
+  <li><a href="#過去のゼミ活動" id="toc-過去のゼミ活動" class="nav-link" data-scroll-target="#過去のゼミ活動">過去のゼミ活動</a>
+  <ul class="collapse">
+  <li><a href="#年度-専門演習ⅰⅱ3回生" id="toc-年度-専門演習ⅰⅱ3回生" class="nav-link" data-scroll-target="#年度-専門演習ⅰⅱ3回生">2021年度 専門演習Ⅰ・Ⅱ（3回生）</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">2027年度専門演習 佐野ゼミ</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><a href="ug-seminar.html" class="btn btn-outline-secondary btn-sm">Undergraduate Seminar (English)</a></p>
+<section id="商品サービスを動かす仕組みを研究する" class="level2">
+<h2 class="anchored" data-anchor-id="商品サービスを動かす仕組みを研究する">商品・サービスを動かす仕組みを研究する</h2>
+<section id="現場とデータから学ぶオペレーションズマネジメントom" class="level3">
+<h3 class="anchored" data-anchor-id="現場とデータから学ぶオペレーションズマネジメントom">現場とデータから学ぶオペレーションズ・マネジメント（OM）</h3>
+<p><strong>2027年度の専門演習を検討している2回生向けのページです。</strong></p>
+<div class="seminar-lead">
+<p>なぜサービスは混雑するのでしょうか。<br>
+限られた人員をどこに配置すればよいのでしょうか。<br>
+商品やサービスを安定して届けるために、企業や組織はどのような仕組みをつくっているのでしょうか。</p>
+</div>
+<p>佐野ゼミでは、こうした商品・サービスの<strong>「裏側の仕組み」</strong>を、 現場での経験や記録、データ、先行研究などをもとに考えます。</p>
+<p>オペレーションズ・マネジメント（OM）をまだ知らなくても構いません。</p>
+<ul>
+<li>身近な商品やサービスがどのように動いているのか気になる</li>
+<li>教室の外にも出て考えてみたい</li>
+<li>仲間と議論しながら研究してみたい</li>
+<li>感想だけでなく、記録やデータを根拠に考えてみたい</li>
+</ul>
+<p>という人を歓迎します。</p>
+<p>特に、交通（航空、鉄道など）、物流、観光などの分野に関心がある人にとって、OMは自分の関心と結びつけやすい考え方だと思います。ただし、OMは対象となる業界や業務を限定しない考え方です。</p>
+<hr>
+</section>
+</section>
+<section id="ポスターを見て来た方へ" class="level2">
+<h2 class="anchored" data-anchor-id="ポスターを見て来た方へ">ポスターを見て来た方へ</h2>
+<section id="スタッフは6人あなたならどう動かしますか" class="level3">
+<h3 class="anchored" data-anchor-id="スタッフは6人あなたならどう動かしますか">スタッフは6人。あなたなら、どう動かしますか？</h3>
+<p>イベントが始まり、来場者が一度に増えました。</p>
+<p>受付には列。<br>
+案内を待つ人もいます。<br>
+会場内でもスタッフの対応が必要です。</p>
+<p>しかし、使えるスタッフは全部で6人です。</p>
+<p><strong>受付に人を増やす？</strong><br>
+<strong>案内に人を回す？</strong><br>
+<strong>人の流れや手順を変える？</strong></p>
+<p>すぐに答えを決める前に、次のことを考えてもらいたいです。</p>
+<div class="seminar-question">
+<p>まず、何を見て、どう判断しますか？</p>
+</div>
+<p>たとえば、</p>
+<ul>
+<li>どこで、どのくらい待ちが生じているのか</li>
+<li>来場者はいつ、どのように到着しているのか</li>
+<li>それぞれの仕事にはどのくらい時間がかかるのか</li>
+<li>受付に人を増やしたら、ほかの場所では何が起きるのか</li>
+<li>人を動かす以外に、作業手順や情報の流れを変えられないか</li>
+</ul>
+<p>などを考えることができます。</p>
+<p>目の前に見えている問題に答えを出すために、 <strong>現場で何が起きているかを捉え、限られた人や時間や場所をどう使うか考える。</strong></p>
+<p>これもオペレーションズ・マネジメントの考え方の一つです。</p>
+<div class="poster-frame">
+<p><a href="assets/images/zemifes2026-sano-seminar-poster.png"><img src="assets/images/zemifes2026-sano-seminar-poster.png" class="img-fluid" alt="ゼミフェス2026 佐野ゼミポスター"></a></p>
+<div class="poster-caption">
+<p>ゼミフェス2026 ポスター（クリックすると拡大できます）</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="佐野ゼミの2年間" class="level2">
+<h2 class="anchored" data-anchor-id="佐野ゼミの2年間">佐野ゼミの2年間</h2>
+<section id="回生春現場を見るためのものさしを身につける" class="level3">
+<h3 class="anchored" data-anchor-id="回生春現場を見るためのものさしを身につける">3回生春：現場を見るための「ものさし」を身につける</h3>
+<p>オペレーションズ・マネジメントの基本的な考え方や、 企業や地域の事例について学びます。</p>
+<p>あわせて、</p>
+<ul>
+<li>現場をどのように観察するか</li>
+<li>何を記録するか</li>
+<li>データをどのように整理するか</li>
+<li>現場で感じた疑問を、どのように研究上の問いにするか</li>
+</ul>
+<p>といった研究の基礎も学びます。</p>
+<p>地域の企業や団体等と連携した活動も計画しています。</p>
+<p>学期末には、これまでに学んだことをもとに<strong>個人レポート</strong>を作成します。</p>
+</section>
+<section id="回生秋仲間と一つの研究をつくる" class="level3">
+<h3 class="anchored" data-anchor-id="回生秋仲間と一つの研究をつくる">3回生秋：仲間と一つの研究をつくる</h3>
+<p>地域交流イベント等への参加を含むフィールドワークで得た経験や記録を出発点として、 <strong>4～5名程度のグループ</strong>で研究に取り組み、共著のゼミ論文を作成します。</p>
+<p>現場で感じた疑問について、</p>
+<p><strong>問いを立てる → 先行研究を調べる → 必要な資料やデータを集める → 分析する → 考察する</strong></p>
+<p>という研究の流れを経験します。現場で得た経験を研究につなげることを目指します。</p>
+<p>完成したゼミ論文の研究成果は、<strong>他大学ゼミとの合同ゼミで発表します。</strong></p>
+</section>
+<section id="回生春自分の研究テーマをつくる" class="level3">
+<h3 class="anchored" data-anchor-id="回生春自分の研究テーマをつくる">4回生春：自分の研究テーマをつくる</h3>
+<p>4回生では、各自が関心を持つテーマについて卒業論文に取り組みます。</p>
+<p>春学期には、</p>
+<ul>
+<li>卒業論文のテーマ設定</li>
+<li>先行研究の調査</li>
+<li>研究計画の作成</li>
+<li>調査・分析の準備</li>
+</ul>
+<p>を進めます。</p>
+<p>研究対象は3回生のフィールドワークに限定しません。</p>
+<p>たとえば、</p>
+<ul>
+<li>航空・鉄道</li>
+<li>物流</li>
+<li>観光</li>
+<li>ホテル</li>
+<li>小売・飲食</li>
+<li>ITサービス</li>
+<li>地域・公共サービス</li>
+<li>サプライチェーン</li>
+</ul>
+<p>など、さまざまな対象からオペレーションに関する問いを考えることができます。</p>
+</section>
+<section id="回生秋卒業論文を完成させる" class="level3">
+<h3 class="anchored" data-anchor-id="回生秋卒業論文を完成させる">4回生秋：卒業論文を完成させる</h3>
+<p>秋学期には調査と分析を進め、卒業論文を完成させます。</p>
+<p>自分の関心と、ゼミで学んだ研究の進め方を結びつけて、 一つの研究としてまとめることを目指します。</p>
+<p>卒業論文の研究成果についても、<strong>他大学ゼミとの合同ゼミで発表します。</strong></p>
+<hr>
+</section>
+</section>
+<section id="年度のフィールドワークについて" class="level2">
+<h2 class="anchored" data-anchor-id="年度のフィールドワークについて">2027年度のフィールドワークについて</h2>
+<p>2027年度は、<strong>茨木市内の地域イベントなどで、実際の運営に関わりながら学ぶフィールドワーク</strong>を計画しています。</p>
+<p>活動の中では、たとえば、</p>
+<ul>
+<li>業務の流れ</li>
+<li>人員配置</li>
+<li>人、物、場所、時間、情報の調整</li>
+<li>関係者の役割と連携</li>
+<li>来場者の動き</li>
+<li>待ち時間や混雑</li>
+<li>利用者の体験</li>
+<li>予定外の出来事への対応</li>
+<li>安全性</li>
+</ul>
+<p>などに目を向けます。<strong>複数の目的を考えながら、より良い運営の仕組みを考えます。</strong></p>
+<p>また、活動後には授業で振り返りを行い、 現場で経験したことをオペレーションズ・マネジメントの視点から整理します。</p>
+<p><strong>現在、関係する団体等と具体的な活動内容を調整しています。<br>
+連携先や実施内容は変更となる場合があります。</strong></p>
+<p>詳細はゼミ説明会でも紹介します。</p>
+<hr>
+</section>
+<section id="研究対象はイベントだけではありません" class="level2">
+<h2 class="anchored" data-anchor-id="研究対象はイベントだけではありません">研究対象は「イベント」だけではありません</h2>
+<p>3回生では共通のフィールドワークを行う予定ですが、 佐野ゼミは「地域イベントを研究するゼミ」ではありません。</p>
+<p>共通するのは研究対象ではなく、</p>
+<blockquote class="blockquote">
+<p><strong>商品やサービスを実際に動かしている仕組みを考えること</strong></p>
+</blockquote>
+<p>です。</p>
+<p>興味のある企業、業界、サービスや社会の仕組みから、 自分なりの研究テーマを見つけてください。</p>
+<hr>
+</section>
+<section id="omをもっと知りたい人へ" class="level2">
+<h2 class="anchored" data-anchor-id="omをもっと知りたい人へ">OMをもっと知りたい人へ</h2>
+<p>オペレーションズ・マネジメント＆ストラテジー学会（JOMSA）の公式noteでは、 身近な商品やサービスを例にOMの考え方を紹介しています。</p>
+<p><a href="https://note.com/jomsa/m/m029fc799fc48">JOMSA note「3分でわかるOM」</a></p>
+<p>ゼミに関心がある人は、ぜひ一度読んでみてください。</p>
+<hr>
+</section>
+<section id="よくある質問" class="level2">
+<h2 class="anchored" data-anchor-id="よくある質問">よくある質問</h2>
+<section id="数学が得意でないと難しいですか" class="level3">
+<h3 class="anchored" data-anchor-id="数学が得意でないと難しいですか">数学が得意でないと難しいですか？</h3>
+<p>数学やプログラミングが得意である必要はありません。</p>
+<p>ただし、感想だけで終わらないように、必要に応じて数字やデータも使いながら、 <strong>根拠をもって考える姿勢</strong>を大切にします。</p>
+</section>
+<section id="オペレーションズリサーチは履修しなければなりませんか" class="level3">
+<h3 class="anchored" data-anchor-id="オペレーションズリサーチは履修しなければなりませんか">「オペレーションズ・リサーチ」は履修しなければなりませんか？</h3>
+<p>ゼミ選考の条件ではありませんが、関連科目として<strong>履修を推奨します</strong>。</p>
+<p>ゼミでは現場から問いを見つけ、 オペレーションズ・リサーチではExcelやRを使って、 データやモデルから問題を考える方法を学びます。 あわせて履修するとOMに関する理解がさらに深まります。</p>
+</section>
+<section id="使用するテキストは決まっていますか" class="level3">
+<h3 class="anchored" data-anchor-id="使用するテキストは決まっていますか">使用するテキストは決まっていますか？</h3>
+<p>授業で使用する文献や資料は、活動や研究テーマに応じて紹介します。</p>
+</section>
+<section id="卒業論文も地域イベントについて書くのですか" class="level3">
+<h3 class="anchored" data-anchor-id="卒業論文も地域イベントについて書くのですか">卒業論文も地域イベントについて書くのですか？</h3>
+<p>いいえ。</p>
+<p>4回生では、自分の関心から研究対象を選びます。</p>
+<p>ただし、単に好きな企業や業界について調べるだけにならないようにしてください。 経営上の<strong>「オペレーション」に関わる問い</strong>として研究することを重視します。</p>
+</section>
+<section id="グループ活動はありますか" class="level3">
+<h3 class="anchored" data-anchor-id="グループ活動はありますか">グループ活動はありますか？</h3>
+<p>あります。</p>
+<p>3回生では、4～5名程度のグループで行う研究を重要な活動の一つとして位置づけています。</p>
+<p>一方、4回生では各自の卒業論文が中心になります。</p>
+</section>
+<section id="学外での活動はありますか" class="level3">
+<h3 class="anchored" data-anchor-id="学外での活動はありますか">学外での活動はありますか？</h3>
+<p>フィールドワークと他大学ゼミとの合同ゼミを予定しています。</p>
+<p>活動内容によっては、通常の授業時間外や休日に実施する場合があります。</p>
+<p>年度によっては、親睦とフィールドワークを目的とした<strong>1泊2日の国内ゼミ合宿</strong>を実施することがあります。</p>
+<p>実施する場合は、原則として参加を想定しています。</p>
+<p>合宿を含むゼミの活動内容や雰囲気等の詳細は、ゼミ説明会で紹介します。</p>
+</section>
+<section id="どんな学生が向いていますか" class="level3">
+<h3 class="anchored" data-anchor-id="どんな学生が向いていますか">どんな学生が向いていますか？</h3>
+<p>現時点でOMに詳しい必要はありません。</p>
+<p>たとえば、</p>
+<ul>
+<li>商品やサービスの「裏側の仕組み」や、航空、鉄道、物流、サービス業などに興味がある</li>
+<li>実際の現場に出て学んでみたい</li>
+<li>感想だけで終わらず、記録やデータをもとに考えてみたい</li>
+<li>グループ活動と個人研究の両方に責任を持って取り組みたい</li>
+</ul>
+<p>という人を歓迎します。</p>
+<hr>
+</section>
+</section>
+<section id="選考について" class="level2">
+<h2 class="anchored" data-anchor-id="選考について">選考について</h2>
+<p>選考では、</p>
+<ul>
+<li>志望理由</li>
+<li>佐野ゼミで学びたいこと</li>
+<li>関心のある企業、サービス、社会課題</li>
+<li>演習科目の履修状況</li>
+<li>グループ活動や学外活動に取り組む姿勢</li>
+</ul>
+<p>などを総合的に評価します。</p>
+<p>GPA、取得単位数等も参考にしますが、<strong>成績のみでは選考しません。</strong></p>
+<p>面談では、</p>
+<blockquote class="blockquote">
+<p>「大学でこれから何を学びたいか」<br>
+「どんなことを自分で調べてみたいか」</p>
+</blockquote>
+<p>を聞きたいと考えています。</p>
+<section id="選考面談" class="level3">
+<h3 class="anchored" data-anchor-id="選考面談">選考面談</h3>
+<ul>
+<li><strong>第1志望：必須</strong></li>
+<li><strong>第2志望、第3志望：必要に応じて実施</strong></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="ゼミフェス202610月1416日" class="level2">
+<h2 class="anchored" data-anchor-id="ゼミフェス202610月1416日">ゼミフェス2026（10月14～16日）</h2>
+<p>ゼミフェスでは、佐野ゼミでどのようなことを学ぶのか、 オペレーションズ・マネジメントとはどのような考え方なのかを紹介します。</p>
+<p>今年度は現役ゼミ生がいないため、教員が説明します。</p>
+<p>卒業生から寄せてもらったゼミでの経験やメッセージも、 許可を得た範囲で紹介する予定です。</p>
+<hr>
+</section>
+<section id="個別ゼミ説明会模擬授業10月20-22日" class="level2">
+<h2 class="anchored" data-anchor-id="個別ゼミ説明会模擬授業10月20-22日">個別ゼミ説明会（模擬授業）（10月20, 22日）</h2>
+<section id="月20日" class="level3">
+<h3 class="anchored" data-anchor-id="月20日">①10月20日</h3>
+<p><strong>時間：13：10～14：10　　教室：AN322</strong></p>
+</section>
+<section id="月22日" class="level3">
+<h3 class="anchored" data-anchor-id="月22日">②10月22日</h3>
+<p><strong>時間：13：10～14：10　　教室：AN323</strong></p>
+<p>両日とも、基本的に同じ内容を予定しています。</p>
+<p>ゼミの説明だけでなく、簡単なケースを使って、</p>
+<blockquote class="blockquote">
+<p><strong>佐野ゼミでは、どのように問題を考えるのか</strong></p>
+</blockquote>
+<p>を実際に体験してもらう予定です。</p>
+<p>ゼミフェスよりも詳しく聞いてみたい人は、ぜひ参加してください。</p>
+<hr>
+</section>
+</section>
+<section id="卒業生から見た佐野ゼミ" class="level2">
+<h2 class="anchored" data-anchor-id="卒業生から見た佐野ゼミ">卒業生から見た佐野ゼミ</h2>
+<p>2025年度卒業生に、ゼミに所属していたときの経験や雰囲気について アンケートをお願いしています。</p>
+<p>回答が集まり次第、本人の許可を得た範囲で紹介します。</p>
+<hr>
+</section>
+<section id="過去のゼミ活動" class="level2">
+<h2 class="anchored" data-anchor-id="過去のゼミ活動">過去のゼミ活動</h2>
+<section id="年度-専門演習ⅰⅱ3回生" class="level3">
+<h3 class="anchored" data-anchor-id="年度-専門演習ⅰⅱ3回生">2021年度 専門演習Ⅰ・Ⅱ（3回生）</h3>
+<p>2021年度は、<strong>サービス戦略とサプライチェーン戦略</strong>を主な研究テーマとして学習しました。</p>
+<p>春学期には、 『<a href="https://bookplus.nikkei.com/atcl/catalog/13/P49790/">ハーバード・ビジネススクールが教える顧客サービス戦略</a>』 （<em>Uncommon Service</em> の日本語訳版）を輪読し、サービス戦略について学びました。</p>
+<p>秋学期には、学生がグループに分かれ、</p>
+<ul>
+<li>自動運転サービス</li>
+<li>地方公共団体の健康づくりサービス</li>
+<li>サプライチェーン・ロジスティクス</li>
+</ul>
+<p>をテーマとして、それぞれの研究課題に関するグループ論文を完成させました。</p>
+<p>グループ・プロジェクトでは、</p>
+<ul>
+<li>福井県吉田郡永平寺町 総合政策課</li>
+<li>大阪府茨木市 健康づくり課</li>
+<li>ユニ・チャーム株式会社</li>
+</ul>
+<p>の皆様にご協力いただきました。</p>
+<p>完成したグループ論文は最終研究報告書として各ご担当者様へ提出しました。</p>
+<p>また、茨木市を対象としたグループでは、 歯科健診受診率向上のための案を考え、茨木市健康づくり課へ提出しました。</p>
+<p>ゼミ活動にご協力いただいた皆様に、改めて感謝申し上げます。</p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> トップに戻る</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "コピーしました");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "コピーしました");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/hiro-sano\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Hiroki Sano</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
